@@ -1,11 +1,12 @@
-Este repositório será usado para o desenvolvimento das atividades do curso de Capacitação em IoT aplicada a agropecuária ministrada pelo professor Victor Medeiros na UFRPE.
+# Capacitação em IoT aplicada a agropecuária de precisão (UFRPE)
 
-Esse curso é oferecido pela FACEPE na modalidade PIBITI. A carga horária desse curso é estimado em 30 horas. Divididos em 5 semanas
+Nesta primeira semana, aprenderemos um pouco sobre a sintaxe da clássica linguagem de programação C para que possamos usar o Arduino como controlador. Nesse estudo, serão abordados temas como a história do C, tipos de dados, estruturas de controle e repetição, structs, funções e muito mais!
 
-# Oferecido por:
+Além disso, veremos temas basilares tais como o conceito de IoT, as quatro revoluções industriais, a diferença entre analógico e digital, sistemas de controle(malha aberta ou fechada). E por fim aprenderemos sobre o Arduino para as atividades práticas propostas.
 
-<img src="https://github.com/Vinicius-O-Ferraz/Capacitacao-em-IoT-aplicada-a-agropecuaria-UFRPE-/blob/main/media/Semine.png?raw=true" width="50%" height="auto">
+# Primeira etapa 
 
-<img src="https://github.com/Vinicius-O-Ferraz/Capacitacao-em-IoT-aplicada-a-agropecuaria-UFRPE-/blob/main/media/Smart%20Rural.png?raw=true" width="50%" height="auto">
+Nessa etapa aprendemos a usar um pino de controle do arduino para acender e apagar um led com um Delay pré definindo.
 
-<img src="https://github.com/Vinicius-O-Ferraz/Capacitacao-em-IoT-aplicada-a-agropecuaria-UFRPE-/blob/main/media/Ju%C3%A1%20Labs.png?raw=true" width="50%" height="auto">
+![Primeira etapa](https://github.com/Vinicius-O-Ferraz/Capacitacao-em-IoT-aplicada-a-agropecuaria-UFRPE-/assets/146992032/3aa9aa08-67bd-4302-ad3b-41c0914748c9)
+
