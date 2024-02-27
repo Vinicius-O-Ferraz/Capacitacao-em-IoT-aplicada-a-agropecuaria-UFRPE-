@@ -1,11 +1,7 @@
 #include <Adafruit_NeoPixel.h>
-#define PIN 				2	// pino de dados do NeoPixel
-#define NUMPIXELS 			8 	// quantidade de pixels na fita
-#define NUMSTRIPS           8   // quantidade de fitas
-#define DELAY				100 // tempo de delay entre pixels
-#define RAINBOW_NUM_COLORS 	7
-
-Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
+#define NUMPIXELS 		8 	
+#define NUMSTRIPS       8	
+#define DELAY			100 
 
 typedef struct RGBLED_t {
 	uint8_t R;
@@ -20,41 +16,37 @@ const RGBLED GREEN  = {0, 255, 0};
 const RGBLED YELLOW = {255, 255, 0};
 const RGBLED ORANGE = {255, 127, 0};
 const RGBLED RED    = {255, 0, 0};
-
-RGBLED rainbow_colors[NUMPIXELS] = {VIOLET, INDIGO, BLUE, GREEN, YELLOW, ORANGE, RED};
+const RGBLED WITHE	= {255,255,255};
 
 
 Adafruit_NeoPixel strips[NUMSTRIPS];
-
-const uint8_t PINS[NUMSTRIPS]={2,3,4,5,6,7,8,9};
-
-void setRGBLED(uint8_t LED_index, struct RGBLED_t LED) {
-    pixels.setPixelColor(LED_index, pixels.Color(LED.R, LED.G, LED.B));
-}
+const uint8_t PINS[NUMSTRIPS]={9,8,7,6,5,4,3,2};
 
 void setPixel2D(uint8_t x, uint8_t y, struct RGBLED_t ledValues) {
-    //TODO
+    if(x >= NUMSTRIPS || y >= NUMPIXELS){
+    	return; 
+  }
+	
+  for (int i = 0; i < NUMSTRIPS; i++) {
+    if (i == x) {
+      strips[i].setPixelColor(y, strips[i].Color(ledValues.R, ledValues.G, ledValues.B));
+      
+      strips[i].show(); 
+    }
+  }
 }
 
-void setup() {
-  	// inicializa a biblioteca NeoPixel
-  	 for (int i = 0; i <= NUMSTRIPS; i++) {
+
+
+void setup(){  
+    for (int i = 0; i < NUMSTRIPS; i++) {
         strips[i] = Adafruit_NeoPixel(NUMPIXELS, PINS[i], NEO_GRB + NEO_KHZ800);
         strips[i].begin();
     }
 }
 
-void loop() {
-    for(int i = 0; i <= NUMSTRIPS;i++){
-    uint32_t color = strips[i].Color(148, 211, 211);
-    
-    for (int j = 0; j <= NUMPIXELS; j++) {
-	    strips[i].setPixelColor(j, color);
-    }
-    strips[i].show();
+void loop(){
+  	setPixel2D(4,5,GREEN);
     delay(DELAY);
-    
-  }
-	
-    
+
 }
