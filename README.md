@@ -37,3 +37,4 @@ Então, definimos uma função setPixel2D para setar a cor de uma LED específic
 
 
 E a partir dela conseguimos criar uma escada de LEDs
+![Stairs](https://github.com/Vinicius-O-Ferraz/Capacitacao-em-IoT-aplicada-a-agropecuaria-UFRPE-/assets/146992032/e012e2d7-d53a-4a8a-8cd5-e20451efa884)
