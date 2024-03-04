@@ -8,7 +8,7 @@ Após esse período, haverá seleção de 1o estudantes bolsistas, durante até 
 
 # Conteúdo Programado
 
-    Semana 1 (6h): Introdução à IoT, plataformas abertas e linguagem C no desenvolvimento IoT
+    Semana 1 (6h): Introdução à IoT, plataformas abertas e linguagem C no desenvolvimento IoT ✅
     Semana 2 (6h): Conceitos básicos de eletrônica aplicados ao desenvolvimento de sistemas IoT para agropecuária de precisão
     Semana 3 (6h): Sensores e atuadores comumente utilizados na agropecuária de precisão
     Semana 4 (6h): Redes de comunicação e infraestrutura de nuvem para sistemas IoT aplicados à agropecuária de precisão
