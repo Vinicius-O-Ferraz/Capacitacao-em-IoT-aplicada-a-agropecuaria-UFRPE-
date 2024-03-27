@@ -7,4 +7,6 @@ Nesta quarta semana, será estudado o I de IoT: a internet. Desse modo estudamos
 Depois vimos em detalhes as camadas física e de enlace (meios guiados e não guiados de transmissão, tecnologias de enlace)
 e camadas de redes e transporte (sockets, identificadores e serviços de rede)
 
+## Exercícios
+
 
