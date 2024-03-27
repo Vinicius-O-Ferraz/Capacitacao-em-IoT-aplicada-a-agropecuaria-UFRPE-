@@ -8,7 +8,7 @@ Neste estudo vimos interface de implementação e os diferentes tipos de sensore
 
 Além disso, estudamos interfaces de comunicação com os sensores, que podem ser síncronas e assíncronas, tais como: Uart, SPI e IIC
 
-## Conteúdo
+## Exercícios
 
 Sem mais, aplicaremos esses conceitos nas atividades da semana.
 
