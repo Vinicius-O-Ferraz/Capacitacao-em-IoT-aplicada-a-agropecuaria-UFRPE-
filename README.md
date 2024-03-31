@@ -28,9 +28,13 @@ Meu nome é Vinícius Ferreira Ferraz, sou aluno do terceiro período do curso d
 
 # Oferecido por:
 
-<img src="https://github.com/Vinicius-O-Ferraz/Capacitacao-em-IoT-aplicada-a-agropecuaria-UFRPE-/blob/main/media/Ju%C3%A1%20Labs.png?raw=true" width="50%" height="auto">
+<p align="center">
+  <img src="https://github.com/Vinicius-O-Ferraz/Capacitacao-em-IoT-aplicada-a-agropecuaria-UFRPE-/blob/main/media/Ju%C3%A1%20Labs.png?raw=true" width="50%" height="auto" alt="Sublime's custom image"/>
+</p>
 
-<img src="https://github.com/Vinicius-O-Ferraz/Capacitacao-em-IoT-aplicada-a-agropecuaria-UFRPE-/blob/main/media/Semine.png?raw=true" width="50%" height="auto">
+<p align="center">
+  <img src="https://github.com/Vinicius-O-Ferraz/Capacitacao-em-IoT-aplicada-a-agropecuaria-UFRPE-/blob/main/media/Semine.png?raw=true" width="50%" height="auto" alt="BSI_Logo" style="float: left;" /><img src="https://github.com/Vinicius-O-Ferraz/Capacitacao-em-IoT-aplicada-a-agropecuaria-UFRPE-/blob/main/media/Smart%20Rural.png?raw=true"  width="50%" height="auto" style="float: left;" />
+</p>
 
-<img src="https://github.com/Vinicius-O-Ferraz/Capacitacao-em-IoT-aplicada-a-agropecuaria-UFRPE-/blob/main/media/Smart%20Rural.png?raw=true" width="50%" height="auto">
+
 
